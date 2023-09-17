@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671E176E2AB6D382005B7F4E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671E176D2AB6D382005B7F4E /* ResultViewController.swift */; };
+		673F7B5D2AB69EE300DC2A8D /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 673F7B5C2AB69EE300DC2A8D /* OpenAISwift */; };
+		678908722AB6B2FA0089F4E5 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 678908712AB6B2FA0089F4E5 /* Image.png */; };
+		67B530C12AB6E2CE0002162F /* AverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B530C02AB6E2CE0002162F /* AverageViewController.swift */; };
+		67B530C32AB6E30B0002162F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B530C22AB6E30B0002162F /* ProfileViewController.swift */; };
 		67F2FB782AB6614100DE4B0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2FB772AB6614100DE4B0F /* LoginViewController.swift */; };
 		67F2FB7A2AB6639000DE4B0F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2FB792AB6639000DE4B0F /* SignUpViewController.swift */; };
 		67F858372AB67CCE00AE40BC /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F858362AB67CCE00AE40BC /* NewItemViewController.swift */; };
@@ -43,13 +48,21 @@
 		8AA336622AB6410F006A2326 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA336612AB6410F006A2326 /* FirebaseRemoteConfigSwift */; };
 		8AA336642AB6410F006A2326 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA336632AB6410F006A2326 /* FirebaseStorage */; };
 		8AA336662AB6410F006A2326 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA336652AB6410F006A2326 /* FirebaseStorageCombine-Community */; };
+		9EAF8B52C42B22661FE3B1E6 /* Pods_Clean_Closet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AEEEB3E88186BBEC861BE1 /* Pods_Clean_Closet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AEEEB3E88186BBEC861BE1 /* Pods_Clean_Closet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clean_Closet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4283E3C956A39AC18A86736F /* Pods-Clean Closet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Closet.release.xcconfig"; path = "Target Support Files/Pods-Clean Closet/Pods-Clean Closet.release.xcconfig"; sourceTree = "<group>"; };
+		54F8774B3E669DDD9975C936 /* Pods-Clean Closet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clean Closet.debug.xcconfig"; path = "Target Support Files/Pods-Clean Closet/Pods-Clean Closet.debug.xcconfig"; sourceTree = "<group>"; };
+		671E176C2AB6C9F3005B7F4E /* Clean Closet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Closet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		671E176D2AB6D382005B7F4E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		678908712AB6B2FA0089F4E5 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = ../../../Downloads/Image.png; sourceTree = "<group>"; };
+		67B530C02AB6E2CE0002162F /* AverageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageViewController.swift; sourceTree = "<group>"; };
+		67B530C22AB6E30B0002162F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		67F2FB772AB6614100DE4B0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		67F2FB792AB6639000DE4B0F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		67F858362AB67CCE00AE40BC /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
-		8AA336192AB63B81006A2326 /* Clean Closet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean Closet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA3361C2AB63B81006A2326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA3361E2AB63B81006A2326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8AA336202AB63B81006A2326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +82,7 @@
 				8AA336462AB6410F006A2326 /* FirebaseDatabase in Frameworks */,
 				8AA336542AB6410F006A2326 /* FirebaseFunctionsCombine-Community in Frameworks */,
 				8AA336642AB6410F006A2326 /* FirebaseStorage in Frameworks */,
+				673F7B5D2AB69EE300DC2A8D /* OpenAISwift in Frameworks */,
 				8AA3364C2AB6410F006A2326 /* FirebaseFirestore in Frameworks */,
 				8AA336382AB6410F006A2326 /* FirebaseAnalyticsSwift in Frameworks */,
 				8AA336342AB6410F006A2326 /* FirebaseAnalytics in Frameworks */,
@@ -91,6 +105,7 @@
 				8AA3364A2AB6410F006A2326 /* FirebaseDynamicLinks in Frameworks */,
 				8AA3364E2AB6410F006A2326 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				8AA3365A2AB6410F006A2326 /* FirebaseInstallations in Frameworks */,
+				9EAF8B52C42B22661FE3B1E6 /* Pods_Clean_Closet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,16 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				8AA3361B2AB63B81006A2326 /* Clean Closet */,
-				8AA3361A2AB63B81006A2326 /* Products */,
+				D3AB4CA49DC63E9716951916 /* Pods */,
+				F67D21EC5BF9AA0AE1461EC9 /* Frameworks */,
+				671E176C2AB6C9F3005B7F4E /* Clean Closet.app */,
 			);
-			sourceTree = "<group>";
-		};
-		8AA3361A2AB63B81006A2326 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8AA336192AB63B81006A2326 /* Clean Closet.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8AA3361B2AB63B81006A2326 /* Clean Closet */ = {
@@ -120,15 +129,36 @@
 				8AA3361E2AB63B81006A2326 /* SceneDelegate.swift */,
 				8AA336202AB63B81006A2326 /* ViewController.swift */,
 				8AA336222AB63B81006A2326 /* Main.storyboard */,
+				67B530C22AB6E30B0002162F /* ProfileViewController.swift */,
+				67B530C02AB6E2CE0002162F /* AverageViewController.swift */,
+				671E176D2AB6D382005B7F4E /* ResultViewController.swift */,
 				67F858362AB67CCE00AE40BC /* NewItemViewController.swift */,
 				8AA336252AB63B82006A2326 /* Assets.xcassets */,
 				8AA336272AB63B82006A2326 /* LaunchScreen.storyboard */,
+				678908712AB6B2FA0089F4E5 /* Image.png */,
 				67F2FB792AB6639000DE4B0F /* SignUpViewController.swift */,
 				67F2FB772AB6614100DE4B0F /* LoginViewController.swift */,
 				8AA3362A2AB63B82006A2326 /* Info.plist */,
 				8AA336302AB63C7D006A2326 /* GoogleService-Info.plist */,
 			);
 			path = "Clean Closet";
+			sourceTree = "<group>";
+		};
+		D3AB4CA49DC63E9716951916 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F8774B3E669DDD9975C936 /* Pods-Clean Closet.debug.xcconfig */,
+				4283E3C956A39AC18A86736F /* Pods-Clean Closet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F67D21EC5BF9AA0AE1461EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AEEEB3E88186BBEC861BE1 /* Pods_Clean_Closet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA3362D2AB63B82006A2326 /* Build configuration list for PBXNativeTarget "Clean Closet" */;
 			buildPhases = (
+				CBC93D823F1EB660CA2F1B02 /* [CP] Check Pods Manifest.lock */,
 				8AA336152AB63B81006A2326 /* Sources */,
 				8AA336162AB63B81006A2326 /* Frameworks */,
 				8AA336172AB63B81006A2326 /* Resources */,
@@ -174,9 +205,10 @@
 				8AA336612AB6410F006A2326 /* FirebaseRemoteConfigSwift */,
 				8AA336632AB6410F006A2326 /* FirebaseStorage */,
 				8AA336652AB6410F006A2326 /* FirebaseStorageCombine-Community */,
+				673F7B5C2AB69EE300DC2A8D /* OpenAISwift */,
 			);
 			productName = "Clean Closet";
-			productReference = 8AA336192AB63B81006A2326 /* Clean Closet.app */;
+			productReference = 671E176C2AB6C9F3005B7F4E /* Clean Closet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -205,8 +237,9 @@
 			mainGroup = 8AA336102AB63B81006A2326;
 			packageReferences = (
 				8AA336322AB6410F006A2326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				673F7B5B2AB69EE300DC2A8D /* XCRemoteSwiftPackageReference "OpenAISwift" */,
 			);
-			productRefGroup = 8AA3361A2AB63B81006A2326 /* Products */;
+			productRefGroup = 8AA336102AB63B81006A2326;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -221,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA336292AB63B82006A2326 /* LaunchScreen.storyboard in Resources */,
+				678908722AB6B2FA0089F4E5 /* Image.png in Resources */,
 				8AA336312AB63C7D006A2326 /* GoogleService-Info.plist in Resources */,
 				8AA336262AB63B82006A2326 /* Assets.xcassets in Resources */,
 				8AA336242AB63B81006A2326 /* Main.storyboard in Resources */,
@@ -229,15 +263,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CBC93D823F1EB660CA2F1B02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clean Closet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AA336152AB63B81006A2326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B530C12AB6E2CE0002162F /* AverageViewController.swift in Sources */,
 				67F2FB782AB6614100DE4B0F /* LoginViewController.swift in Sources */,
 				8AA336212AB63B81006A2326 /* ViewController.swift in Sources */,
+				671E176E2AB6D382005B7F4E /* ResultViewController.swift in Sources */,
 				67F858372AB67CCE00AE40BC /* NewItemViewController.swift in Sources */,
 				8AA3361D2AB63B81006A2326 /* AppDelegate.swift in Sources */,
+				67B530C32AB6E30B0002162F /* ProfileViewController.swift in Sources */,
 				8AA3361F2AB63B81006A2326 /* SceneDelegate.swift in Sources */,
 				67F2FB7A2AB6639000DE4B0F /* SignUpViewController.swift in Sources */,
 			);
@@ -381,6 +443,7 @@
 		};
 		8AA3362E2AB63B82006A2326 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F8774B3E669DDD9975C936 /* Pods-Clean Closet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -408,6 +471,7 @@
 		};
 		8AA3362F2AB63B82006A2326 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4283E3C956A39AC18A86736F /* Pods-Clean Closet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +521,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		673F7B5B2AB69EE300DC2A8D /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		8AA336322AB6410F006A2326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -468,6 +540,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		673F7B5C2AB69EE300DC2A8D /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 673F7B5B2AB69EE300DC2A8D /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
 		8AA336332AB6410F006A2326 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8AA336322AB6410F006A2326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

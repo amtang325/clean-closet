@@ -18,11 +18,11 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
     @IBAction func loginClicked(_ sender: UIButton) {
         guard let email = userTextField.text else { return }
         guard let password = passwordTextField.text else { return }
-        
+        print("hi")
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in
             if let e = error {
                 print("error")
